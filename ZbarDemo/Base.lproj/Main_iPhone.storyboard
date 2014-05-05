@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zbar-samples.png" translatesAutoresizingMaskIntoConstraints="NO" id="5r9-dS-Rzl">
+                                <rect key="frame" x="0.0" y="20" width="320" height="291"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="291" id="LTf-DK-6d1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1W-FW-zZs">
+                                <rect key="frame" x="30" y="344" width="260" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="mFG-VD-Y9I"/>
+                                    <constraint firstAttribute="height" constant="38" id="rLb-aW-zla"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2b-SB-O8d">
+                                <rect key="frame" x="119" y="512" width="83" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Utn-AE-ge8"/>
+                                    <constraint firstAttribute="width" constant="83" id="rbK-R9-kQg"/>
+                                </constraints>
+                                <state key="normal" title="Scan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startScanning:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ldF-Ej-hZx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-dm-zAq">
+                                <rect key="frame" x="30" y="319" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="lKd-3E-6aE"/>
+                                    <constraint firstAttribute="height" constant="21" id="sk4-uv-g4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m1W-FW-zZs" firstAttribute="top" secondItem="d4e-dm-zAq" secondAttribute="bottom" constant="4" id="0Es-Za-orL"/>
+                            <constraint firstItem="d4e-dm-zAq" firstAttribute="top" secondItem="5r9-dS-Rzl" secondAttribute="bottom" constant="8" id="MpK-Ko-7To"/>
+                            <constraint firstItem="d4e-dm-zAq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="OFx-dz-pRD"/>
+                            <constraint firstItem="m1W-FW-zZs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="Qsv-fV-MrZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="r2b-SB-O8d" secondAttribute="bottom" constant="20" id="Snk-MM-HCd"/>
+                            <constraint firstItem="5r9-dS-Rzl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TY4-yE-gFA"/>
+                            <constraint firstAttribute="trailing" secondItem="5r9-dS-Rzl" secondAttribute="trailing" id="Zse-Uz-TRI"/>
+                            <constraint firstItem="5r9-dS-Rzl" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="eJM-zo-nwa"/>
+                            <constraint firstItem="r2b-SB-O8d" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="119" id="oci-Zs-dzq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultImageView" destination="5r9-dS-Rzl" id="WBt-5y-FTl"/>
+                        <outlet property="resultTextView" destination="m1W-FW-zZs" id="n1y-wm-TtY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="zbar-samples.png" width="214" height="96"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

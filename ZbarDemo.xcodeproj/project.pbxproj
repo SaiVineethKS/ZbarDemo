@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988018B9190F4120006DEC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018B8190F4120006DEC45 /* Foundation.framework */; };
+		988018BB190F4120006DEC45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018BA190F4120006DEC45 /* CoreGraphics.framework */; };
+		988018BD190F4120006DEC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018BC190F4120006DEC45 /* UIKit.framework */; };
+		988018C3190F4120006DEC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988018C1190F4120006DEC45 /* InfoPlist.strings */; };
+		988018C5190F4120006DEC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988018C4190F4120006DEC45 /* main.m */; };
+		988018C9190F4120006DEC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988018C8190F4120006DEC45 /* AppDelegate.m */; };
+		988018CC190F4120006DEC45 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988018CA190F4120006DEC45 /* Main_iPhone.storyboard */; };
+		988018CF190F4120006DEC45 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988018CD190F4120006DEC45 /* Main_iPad.storyboard */; };
+		988018D2190F4120006DEC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988018D1190F4120006DEC45 /* ViewController.m */; };
+		988018D4190F4120006DEC45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988018D3190F4120006DEC45 /* Images.xcassets */; };
+		988018DB190F4120006DEC45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018DA190F4120006DEC45 /* XCTest.framework */; };
+		988018DC190F4120006DEC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018B8190F4120006DEC45 /* Foundation.framework */; };
+		988018DD190F4120006DEC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988018BC190F4120006DEC45 /* UIKit.framework */; };
+		988018E5190F4120006DEC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988018E3190F4120006DEC45 /* InfoPlist.strings */; };
+		988018E7190F4120006DEC45 /* ZbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988018E6190F4120006DEC45 /* ZbarDemoTests.m */; };
+		9880190E190F4306006DEC45 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98801908190F4306006DEC45 /* libzbar.a */; };
+		9880190F190F4306006DEC45 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9880190A190F4306006DEC45 /* zbar-back.png */; };
+		98801910190F4306006DEC45 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 9880190B190F4306006DEC45 /* zbar-help.html */; };
+		98801911190F4306006DEC45 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 9880190C190F4306006DEC45 /* zbar-helpicons.png */; };
+		98801912190F4306006DEC45 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 9880190D190F4306006DEC45 /* zbar-samples.png */; };
+		98DEED67190F498F0095A2AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED66190F498F0095A2AB /* AVFoundation.framework */; };
+		98DEED69190F49A90095A2AB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED68190F49A90095A2AB /* CoreMedia.framework */; };
+		98DEED6B190F49D20095A2AB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED6A190F49D20095A2AB /* CoreAudio.framework */; };
+		98DEED6D190F49DA0095A2AB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED6C190F49DA0095A2AB /* CoreVideo.framework */; };
+		98DEED6F190F49EA0095A2AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED6E190F49EA0095A2AB /* QuartzCore.framework */; };
+		98DEED71190F4A000095A2AB /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DEED70190F4A000095A2AB /* libiconv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		988018DE190F4120006DEC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988018AD190F4120006DEC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988018B4190F4120006DEC45;
+			remoteInfo = ZbarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		988018B5190F4120006DEC45 /* ZbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988018B8190F4120006DEC45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		988018BA190F4120006DEC45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		988018BC190F4120006DEC45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		988018C0190F4120006DEC45 /* ZbarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZbarDemo-Info.plist"; sourceTree = "<group>"; };
+		988018C2190F4120006DEC45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		988018C4190F4120006DEC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		988018C6190F4120006DEC45 /* ZbarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZbarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		988018C7190F4120006DEC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		988018C8190F4120006DEC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		988018CB190F4120006DEC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		988018CE190F4120006DEC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		988018D0190F4120006DEC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		988018D1190F4120006DEC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		988018D3190F4120006DEC45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		988018D9190F4120006DEC45 /* ZbarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZbarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988018DA190F4120006DEC45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		988018E2190F4120006DEC45 /* ZbarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZbarDemoTests-Info.plist"; sourceTree = "<group>"; };
+		988018E4190F4120006DEC45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		988018E6190F4120006DEC45 /* ZbarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZbarDemoTests.m; sourceTree = "<group>"; };
+		988018F4190F4306006DEC45 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		988018F5190F4306006DEC45 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		988018F6190F4306006DEC45 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		988018F7190F4306006DEC45 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		988018F8190F4306006DEC45 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		988018F9190F4306006DEC45 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		988018FA190F4306006DEC45 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		988018FB190F4306006DEC45 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		988018FC190F4306006DEC45 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		988018FD190F4306006DEC45 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		988018FE190F4306006DEC45 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		988018FF190F4306006DEC45 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		98801900190F4306006DEC45 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		98801901190F4306006DEC45 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		98801902190F4306006DEC45 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		98801903190F4306006DEC45 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		98801904190F4306006DEC45 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		98801905190F4306006DEC45 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		98801906190F4306006DEC45 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		98801907190F4306006DEC45 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		98801908190F4306006DEC45 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		9880190A190F4306006DEC45 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		9880190B190F4306006DEC45 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		9880190C190F4306006DEC45 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		9880190D190F4306006DEC45 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		98DEED66190F498F0095A2AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		98DEED68190F49A90095A2AB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		98DEED6A190F49D20095A2AB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		98DEED6C190F49DA0095A2AB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		98DEED6E190F49EA0095A2AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		98DEED70190F4A000095A2AB /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988018B2190F4120006DEC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DEED71190F4A000095A2AB /* libiconv.dylib in Frameworks */,
+				98DEED6F190F49EA0095A2AB /* QuartzCore.framework in Frameworks */,
+				98DEED6D190F49DA0095A2AB /* CoreVideo.framework in Frameworks */,
+				98DEED6B190F49D20095A2AB /* CoreAudio.framework in Frameworks */,
+				98DEED69190F49A90095A2AB /* CoreMedia.framework in Frameworks */,
+				98DEED67190F498F0095A2AB /* AVFoundation.framework in Frameworks */,
+				988018BB190F4120006DEC45 /* CoreGraphics.framework in Frameworks */,
+				988018BD190F4120006DEC45 /* UIKit.framework in Frameworks */,
+				9880190E190F4306006DEC45 /* libzbar.a in Frameworks */,
+				988018B9190F4120006DEC45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988018D6190F4120006DEC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988018DB190F4120006DEC45 /* XCTest.framework in Frameworks */,
+				988018DD190F4120006DEC45 /* UIKit.framework in Frameworks */,
+				988018DC190F4120006DEC45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988018AC190F4120006DEC45 = {
+			isa = PBXGroup;
+			children = (
+				988018BE190F4120006DEC45 /* ZbarDemo */,
+				988018E0190F4120006DEC45 /* ZbarDemoTests */,
+				988018B7190F4120006DEC45 /* Frameworks */,
+				988018B6190F4120006DEC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988018B6190F4120006DEC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988018B5190F4120006DEC45 /* ZbarDemo.app */,
+				988018D9190F4120006DEC45 /* ZbarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988018B7190F4120006DEC45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DEED70190F4A000095A2AB /* libiconv.dylib */,
+				98DEED6E190F49EA0095A2AB /* QuartzCore.framework */,
+				98DEED6C190F49DA0095A2AB /* CoreVideo.framework */,
+				98DEED6A190F49D20095A2AB /* CoreAudio.framework */,
+				98DEED68190F49A90095A2AB /* CoreMedia.framework */,
+				98DEED66190F498F0095A2AB /* AVFoundation.framework */,
+				988018B8190F4120006DEC45 /* Foundation.framework */,
+				988018BA190F4120006DEC45 /* CoreGraphics.framework */,
+				988018BC190F4120006DEC45 /* UIKit.framework */,
+				988018DA190F4120006DEC45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		988018BE190F4120006DEC45 /* ZbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				988018F0190F4306006DEC45 /* ZBarSDK */,
+				988018C7190F4120006DEC45 /* AppDelegate.h */,
+				988018C8190F4120006DEC45 /* AppDelegate.m */,
+				988018CA190F4120006DEC45 /* Main_iPhone.storyboard */,
+				988018CD190F4120006DEC45 /* Main_iPad.storyboard */,
+				988018D0190F4120006DEC45 /* ViewController.h */,
+				988018D1190F4120006DEC45 /* ViewController.m */,
+				988018D3190F4120006DEC45 /* Images.xcassets */,
+				988018BF190F4120006DEC45 /* Supporting Files */,
+			);
+			path = ZbarDemo;
+			sourceTree = "<group>";
+		};
+		988018BF190F4120006DEC45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988018C0190F4120006DEC45 /* ZbarDemo-Info.plist */,
+				988018C1190F4120006DEC45 /* InfoPlist.strings */,
+				988018C4190F4120006DEC45 /* main.m */,
+				988018C6190F4120006DEC45 /* ZbarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988018E0190F4120006DEC45 /* ZbarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				988018E6190F4120006DEC45 /* ZbarDemoTests.m */,
+				988018E1190F4120006DEC45 /* Supporting Files */,
+			);
+			path = ZbarDemoTests;
+			sourceTree = "<group>";
+		};
+		988018E1190F4120006DEC45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988018E2190F4120006DEC45 /* ZbarDemoTests-Info.plist */,
+				988018E3190F4120006DEC45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988018F0190F4306006DEC45 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				988018F1190F4306006DEC45 /* Headers */,
+				98801908190F4306006DEC45 /* libzbar.a */,
+				98801909190F4306006DEC45 /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		988018F1190F4306006DEC45 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				988018F2190F4306006DEC45 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		988018F2190F4306006DEC45 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				988018F3190F4306006DEC45 /* zbar */,
+				988018FD190F4306006DEC45 /* zbar.h */,
+				988018FE190F4306006DEC45 /* ZBarCameraSimulator.h */,
+				988018FF190F4306006DEC45 /* ZBarCaptureReader.h */,
+				98801900190F4306006DEC45 /* ZBarHelpController.h */,
+				98801901190F4306006DEC45 /* ZBarImage.h */,
+				98801902190F4306006DEC45 /* ZBarImageScanner.h */,
+				98801903190F4306006DEC45 /* ZBarReaderController.h */,
+				98801904190F4306006DEC45 /* ZBarReaderView.h */,
+				98801905190F4306006DEC45 /* ZBarReaderViewController.h */,
+				98801906190F4306006DEC45 /* ZBarSDK.h */,
+				98801907190F4306006DEC45 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		988018F3190F4306006DEC45 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				988018F4190F4306006DEC45 /* Decoder.h */,
+				988018F5190F4306006DEC45 /* Exception.h */,
+				988018F6190F4306006DEC45 /* Image.h */,
+				988018F7190F4306006DEC45 /* ImageScanner.h */,
+				988018F8190F4306006DEC45 /* Processor.h */,
+				988018F9190F4306006DEC45 /* Scanner.h */,
+				988018FA190F4306006DEC45 /* Symbol.h */,
+				988018FB190F4306006DEC45 /* Video.h */,
+				988018FC190F4306006DEC45 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		98801909190F4306006DEC45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9880190A190F4306006DEC45 /* zbar-back.png */,
+				9880190B190F4306006DEC45 /* zbar-help.html */,
+				9880190C190F4306006DEC45 /* zbar-helpicons.png */,
+				9880190D190F4306006DEC45 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988018B4190F4120006DEC45 /* ZbarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988018EA190F4120006DEC45 /* Build configuration list for PBXNativeTarget "ZbarDemo" */;
+			buildPhases = (
+				988018B1190F4120006DEC45 /* Sources */,
+				988018B2190F4120006DEC45 /* Frameworks */,
+				988018B3190F4120006DEC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZbarDemo;
+			productName = ZbarDemo;
+			productReference = 988018B5190F4120006DEC45 /* ZbarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		988018D8190F4120006DEC45 /* ZbarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988018ED190F4120006DEC45 /* Build configuration list for PBXNativeTarget "ZbarDemoTests" */;
+			buildPhases = (
+				988018D5190F4120006DEC45 /* Sources */,
+				988018D6190F4120006DEC45 /* Frameworks */,
+				988018D7190F4120006DEC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988018DF190F4120006DEC45 /* PBXTargetDependency */,
+			);
+			name = ZbarDemoTests;
+			productName = ZbarDemoTests;
+			productReference = 988018D9190F4120006DEC45 /* ZbarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988018AD190F4120006DEC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NCXT;
+				TargetAttributes = {
+					988018D8190F4120006DEC45 = {
+						TestTargetID = 988018B4190F4120006DEC45;
+					};
+				};
+			};
+			buildConfigurationList = 988018B0190F4120006DEC45 /* Build configuration list for PBXProject "ZbarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 988018AC190F4120006DEC45;
+			productRefGroup = 988018B6190F4120006DEC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988018B4190F4120006DEC45 /* ZbarDemo */,
+				988018D8190F4120006DEC45 /* ZbarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988018B3190F4120006DEC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988018CF190F4120006DEC45 /* Main_iPad.storyboard in Resources */,
+				988018D4190F4120006DEC45 /* Images.xcassets in Resources */,
+				988018CC190F4120006DEC45 /* Main_iPhone.storyboard in Resources */,
+				988018C3190F4120006DEC45 /* InfoPlist.strings in Resources */,
+				98801912190F4306006DEC45 /* zbar-samples.png in Resources */,
+				98801910190F4306006DEC45 /* zbar-help.html in Resources */,
+				9880190F190F4306006DEC45 /* zbar-back.png in Resources */,
+				98801911190F4306006DEC45 /* zbar-helpicons.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988018D7190F4120006DEC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988018E5190F4120006DEC45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988018B1190F4120006DEC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988018D2190F4120006DEC45 /* ViewController.m in Sources */,
+				988018C9190F4120006DEC45 /* AppDelegate.m in Sources */,
+				988018C5190F4120006DEC45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988018D5190F4120006DEC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988018E7190F4120006DEC45 /* ZbarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		988018DF190F4120006DEC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988018B4190F4120006DEC45 /* ZbarDemo */;
+			targetProxy = 988018DE190F4120006DEC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		988018C1190F4120006DEC45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988018C2190F4120006DEC45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		988018CA190F4120006DEC45 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988018CB190F4120006DEC45 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		988018CD190F4120006DEC45 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988018CE190F4120006DEC45 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		988018E3190F4120006DEC45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988018E4190F4120006DEC45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988018E8190F4120006DEC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		988018E9190F4120006DEC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988018EB190F4120006DEC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZbarDemo/ZbarDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZbarDemo/ZbarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZbarDemo/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		988018EC190F4120006DEC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZbarDemo/ZbarDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZbarDemo/ZbarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZbarDemo/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		988018EE190F4120006DEC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZbarDemo.app/ZbarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZbarDemo/ZbarDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZbarDemoTests/ZbarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		988018EF190F4120006DEC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZbarDemo.app/ZbarDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZbarDemo/ZbarDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZbarDemoTests/ZbarDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988018B0190F4120006DEC45 /* Build configuration list for PBXProject "ZbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988018E8190F4120006DEC45 /* Debug */,
+				988018E9190F4120006DEC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988018EA190F4120006DEC45 /* Build configuration list for PBXNativeTarget "ZbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988018EB190F4120006DEC45 /* Debug */,
+				988018EC190F4120006DEC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988018ED190F4120006DEC45 /* Build configuration list for PBXNativeTarget "ZbarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988018EE190F4120006DEC45 /* Debug */,
+				988018EF190F4120006DEC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 988018AD190F4120006DEC45 /* Project object */;
+}
